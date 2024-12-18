@@ -1,3 +1,5 @@
+#slots
+
 import time
 import random
 
@@ -18,9 +20,15 @@ while True:
         print(A)
         time.sleep(0.2)
         print(B)
-        time.sleep(0.2)
+        if A == B:
+            time.sleep(0.5)
+        else:
+            time.sleep(0.2)
         print(C)
-        time.sleep(0.2)
+        if C == A and A == B:
+            time.sleep(0.7)
+        else:
+            time.sleep(0.2)
         print(D)
         time.sleep(0.3)
         if A == B and A == C and A == D and A == D:
@@ -30,4 +38,4 @@ while True:
     else:
         print("error")
 
-# ეს არის სლოტები თამაში ამოირჩევს ფერებს თუ ეს ფერები დაემთხვა ერთმანეთს მოიგე თუ არა წააგე
+# ეს არის სლოტები, თამაში ამოირჩევს ფერებს თუ ეს ფერები დაემთხვა მოიგე თუ არა წააგე.
