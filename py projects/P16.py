@@ -7,7 +7,7 @@ def chatbot():
     print("Chatbot: Hi! How can I assist you today?")
     
     while True:
-        user_input = input("You: ").lower()
+        user_input = input("You: ")
         
         time.sleep(0.4)
 
@@ -24,7 +24,7 @@ def chatbot():
             print("Chatbot:", random.choice(responses))
         
         elif user_input in ["what is your name", "who are you"]:
-            responses = ["I'm a friendly chatbot!", "I'm ChatGPT, here to help!"]
+            responses = ["I'm a friendly chatbot!", "I'm janezGPT, here to help!"]
             print("Chatbot:", random.choice(responses))
         
         elif user_input in ["tell me a joke", "make me laugh"]:

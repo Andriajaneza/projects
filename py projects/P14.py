@@ -1,5 +1,3 @@
-#curency changer
-
 import time
 
 while True:
@@ -9,82 +7,66 @@ while True:
     print(currencies)
     A = (int(input("how many lari do you have : ")))
     B = (str(input("on what curency you want to change : ")))
-    if B == "NZD":
-        print(A * 0.55)
-    elif B == "SEK":
-        print(A * 3.60)
-    elif B == "NOK":
-        print(A * 3.70)
-    elif B == "DKK":
-        print(A * 2.40)
-    elif B == "ZAR":
-        print(A * 6.80)
-    elif B == "BRL":
-        print(A * 1.75)
-    elif B == "MXN":
-        print(A * 6.00)
-    elif B == "KRW":
-        print(A * 450.00)
-    elif B == "TRY":
-        print(A * 9.20)
-    elif B == "PLN":
-        print(A * 1.40)
-    elif B == "SGD":
-        print(A * 0.48)
-    elif B == "THB":
-        print(A * 11.20)
-    elif B == "AED":
-        print(A * 1.28)
-    elif B == "SAR":
-        print(A * 1.30)
-    elif B == "HKD":
-        print(A * 2.70)
-    elif B == "IDR":
-        print(A * 5300.00)
-    elif B == "MYR":
+    if B == "USD":
+        print(A * 2.30)
+    elif B == "EUR":
+        print(A * 2.50)
+    elif B == "GEL":
+        print(A * 1.00)
+    elif B == "JPY":
+        print(A * 17.00)
+    elif B == "GBP":
+        print(A * 2.95)
+    elif B == "RUB":
+        print(A * 28.00)
+    elif B == "CNY":
+        print(A * 0.32)
+    elif B == "INR":
+        print(A * 27.00)
+    elif B == "IQD":
+        print(A * 790.00)
+    elif B == "CHF":
+        print(A * 2.60)
+    elif B == "CAD":
+        print(A * 1.70)
+    elif B == "AUD":
         print(A * 1.50)
-    elif B == "PHP":
-        print(A * 19.80)
-    elif B == "EGP":
-        print(A * 10.50)
-    elif B == "ARS":
-        print(A * 70.00)
-    elif B == "VND":
-        print(A * 8100.00)
-    elif B == "COP":
-        print(A * 1600.00)
-    elif B == "UAH":
-        print(A * 9.50)
-    elif B == "RON":
-        print(A * 1.75)
-    elif B == "BGN":
-        print(A * 1.80)
-    elif B == "HUF":
-        print(A * 110.00)
-    elif B == "CZK":
-        print(A * 7.50)
-    elif B == "ISK":
-        print(A * 45.00)
-    elif B == "LKR":
-        print(A * 130.00)
-    elif B == "PKR":
-        print(A * 60.00)
-    elif B == "KWD":
-        print(A * 0.11)
-    elif B == "BHD":
-        print(A * 0.13)
-    elif B == "OMR":
-        print(A * 0.13)
-    elif B == "QAR":
+    elif B == "NZD":
+        print(A * 1.40)
+    elif B == "SEK":
+        print(A * 0.22)
+    elif B == "NOK":
+        print(A * 0.21)
+    elif B == "DKK":
+        print(A * 0.34)
+    elif B == "ZAR":
+        print(A * 1.25)
+    elif B == "BRL":
+        print(A * 0.90)
+    elif B == "MXN":
+        print(A * 0.80)
+    elif B == "KRW":
+        print(A * 290.00)
+    elif B == "TRY":
+        print(A * 1.18)
+    elif B == "PLN":
+        print(A * 0.56)
+    elif B == "SGD":
+        print(A * 1.70)
+    elif B == "THB":
         print(A * 1.30)
-    elif B == "JOD":
-        print(A * 0.25)
-    elif B == "CLP":
-        print(A * 280.00)
-    elif B == "DZD":
-        print(A * 46.00)
-    elif B == "NGN":
-        print(A * 500.00)
+    elif B == "AED":
+        print(A * 0.63)
+    elif B == "SAR":
+        print(A * 0.61)
+    elif B == "HKD":
+        print(A * 2.20)
+    elif B == "IDR":
+        print(A * 9400.00)
+    elif B == "MYR":
+        print(A * 0.50)
+    elif B == "PHP":
+        print(A * 12.50)
     else:
-        print("Error: Currency not found")
+        print("Currency not found!")
     time.sleep(2)
