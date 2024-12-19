@@ -1,3 +1,5 @@
+#random password generator
+
 import random
 import time
 

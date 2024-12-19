@@ -7,10 +7,10 @@ while True:
     print(currencies)
     A = (int(input("how many lari do you have : ")))
     B = (str(input("on what curency you want to change : ")))
-    if B == "USD":
-        print(A * 2.30)
+    if   B == "USD":
+        print(A * 2.80)
     elif B == "EUR":
-        print(A * 2.50)
+        print(A * 3)
     elif B == "GEL":
         print(A * 1.00)
     elif B == "JPY":

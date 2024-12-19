@@ -39,7 +39,7 @@ def chatbot():
             print("Chatbot:", random.choice(responses))
         
         elif user_input in ["thank you", "thanks"]:
-            responses = ["You're welcome!", "Glad I could help!"]
+            responses = ["You're welcome!", "no problem!"]
             print("Chatbot:", random.choice(responses))
         
         elif user_input in ["sorry", "my bad"]:
