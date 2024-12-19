@@ -10,7 +10,7 @@ while True:
     if   B == "USD":
         print(A * 2.80)
     elif B == "EUR":
-        print(A * 3)
+        print(A * 3.00)
     elif B == "GEL":
         print(A * 1.00)
     elif B == "JPY":

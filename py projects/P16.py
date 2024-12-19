@@ -78,12 +78,6 @@ def chatbot():
             responses = ["Good night! Sleep well!", "Sweet dreams!"]
             print("Chatbot:", random.choice(responses))
         
-        elif user_input in ["what's the time", "tell me the time"]:
-            from datetime import datetime
-            now = datetime.now()
-            current_time = now.strftime("%H:%M:%S")
-            print("Chatbot: The current time is", current_time)
-        
         elif user_input in ["what is love", "define love"]:
             responses = ["Love is a deep emotional connection between people.", "Love is when you care for someone deeply."]
             print("Chatbot:", random.choice(responses))

@@ -21,20 +21,21 @@ while True:
         time.sleep(0.2)
         print(B)
         if A == B:
-            time.sleep(0.5)
+            time.sleep(0.7)
         else:
             time.sleep(0.2)
         print(C)
         if C == A and A == B:
-            time.sleep(0.7)
+            time.sleep(1.2)
         else:
             time.sleep(0.2)
         print(D)
-        time.sleep(0.3)
+        time.sleep(0.8)
         if A == B and A == C and A == D and A == D:
             print("you won!")
         else:
             print("you lose")
+        time.sleep(0.4)
     else:
         print("error")
 
